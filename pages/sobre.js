@@ -1,5 +1,6 @@
 import Header from "../src/components/Header";
 import Footer from "../src/components/Footer/index";
+import Head from "next/head";
 
 /*const Home = styled.body`
     text-align: center;
@@ -46,6 +47,10 @@ import Footer from "../src/components/Footer/index";
 export default function Sobre() {
   return (
     <>
+      <Head>
+        <title>Sobre</title>
+        <link rel="icon" type="image/jpg" sizes="any" href="/PodBreeze.jpg" />
+      </Head>
       <Header />
       <style jsx>{`
         .sobre {

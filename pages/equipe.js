@@ -13,6 +13,7 @@ import p9 from "../src/assets/pessoas/p9.png";
 import p10 from "../src/assets/pessoas/p10.png";
 import p11 from "../src/assets/pessoas/p11.jpeg";
 import p12 from "../src/assets/pessoas/p12.jpeg";
+import Head from "next/head";
 
 /*const Home = styled.body`
     text-align: center;
@@ -59,6 +60,10 @@ import p12 from "../src/assets/pessoas/p12.jpeg";
 export default function equipe() {
   return (
     <>
+      <Head>
+        <title>Equipe</title>
+        <link rel="icon" type="image/jpg" sizes="any" href="/PodBreeze.jpg" />
+      </Head>
       <Header />
       <style jsx>{`
         .centralizador {
