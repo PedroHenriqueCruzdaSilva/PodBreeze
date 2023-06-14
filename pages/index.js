@@ -93,6 +93,24 @@ export default function HomePage() {
             margin-top: -35px;
             text-align: center;
           }
+          .Desc p {
+            margin-top: 50px;
+            font-size: 20px;
+          }
+          .img{
+            width: 310px;
+          }
+          @media (max-width: 310px) {
+            .pro {
+              width: 200px
+            }
+            .Desc p {
+              font-size: 15px
+            }
+            .pro img {
+              width: 200px;
+            }
+          }
         `}</style>
         <div className="centralizador projetos">
           <h1 className="project">Episodios</h1>
